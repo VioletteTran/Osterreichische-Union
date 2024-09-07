@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Österreichische Union</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #E0D8C3; /* Bone */
+            color: #333;
+        }
+        header {
+            background-color: #E2532F; /* Flame */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            margin-bottom: 20px; /* Adjust the value as needed */
+        }
+        .hero {
+            background-color: #E0D8C3; 
+            color: #E2532F;
+            padding: 20px;
+            text-align: center;
+        }
+        .nav {
+            display: flex;
+            justify-content: center;
+            background-color: #E2532F;
+            padding: 10px 0;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-top: 20px; /* Adjust the value as needed */
+        }
+        .nav-link {
+            margin: 5px;
+            text-decoration: none;
+            color: #E2532F; 
+            font-weight: bold;
+            margin-top: 20px; /* Adjust the value as needed */
+        }
+        .nav-link.active {
+            border-bottom: 2px solid #E2532F; /* Flame */
+        }
+        .section-content {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 1200px;
+            background-color: #E0D8C3;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .product-card {
+            border: 1px solid #E2532F; /* Flame */
+            border-radius: 8px;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #E0D8C3;
+            text-align: center;
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product-card button {
+            background-color: #E2532F; /* Flame */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        .product-card button:hover {
+            background-color: #d9442a;
+        }
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+        .contact-form label {
+            margin-top: 10px;
+        }
+        .contact-form input, .contact-form textarea {
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 5px;
+        }
+        .contact-form button {
+            background-color: #E2532F; /* Flame */
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .contact-form button:hover {
+            background-color: #d9442a;
+        }
+        .confirmation-message {
+            display: none;
+            background-color: #E2532F; /* Flame */
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #E2532F; /* Flame */
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        p {
+            max-width: 800px; /* Max width for paragraphs */
+            margin: 0 auto 20px; /* Center-align and add space below */
+            line-height: 1.6; /* Improve readability */
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Österreichische Union</h1>
+    <p>Innovative Solutions for Modern Defense and Technology</p>
+</header>
+<center>
+<nav>
+    <a href="#" class="nav-link" data-target="home">
+        <span><b>Home</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="small-arms">
+        <span><b>Small Arms</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="vehicles">
+        <span><b>Vehicles</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="planes">
+        <span><b>Planes</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="ships">
+        <span><b>Ships</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="tech">
+        <span><b>Tech</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="about">
+        <span><b>About</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="contact">
+        <span><b>Contact</b></span>
+    </a>
+    <a href="#" class="nav-link" data-target="checkout">
+        <span><b>Checkout</b></span>
+    </a>
+</nav>
+</center>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+</section>
+
+<!-- Info Section -->
+<center>
+<section class="info-section" id="info">
+    <center><h2>About Our Products</h2></center>
+    <p>At Österreichische Union, we provide top-of-the-line products designed to meet the needs of modern defense and technology. Our commitment to excellence ensures that every product is built to the highest standards of quality and performance. From advanced firearms and combat vehicles to state-of-the-art aircraft and naval vessels, our range of products is crafted to exceed expectations and provide unmatched reliability in critical situations.</p>
+</section>
+</center>
+
+<!-- Featured Products Section -->
+<section id="featured" class="section-content">
+    <center><h2>Featured Products</h2></center>
+    <center><p>At Österreichische Union, we are dedicated to delivering top-of-the-line products meticulously designed to meet the diverse needs of modern defense and technology. Our commitment to excellence is unwavering, ensuring that each product adheres to the highest standards of quality and performance. Our extensive range includes everything from advanced firearms and combat vehicles to state-of-the-art aircraft and naval vessels. Each product is engineered with precision to exceed expectations, offering unmatched reliability and effectiveness in critical situations. Our rigorous testing and quality assurance processes guarantee that our offerings not only meet but surpass industry standards, providing our clients with the confidence and assurance they need in the field. By integrating cutting-edge technology and innovative design, we strive to enhance operational efficiency and deliver solutions that stand at the forefront of the defense and technology sectors.</p></center>
+<div class="product-card">
+    <h3>The Minervabook 4</h3>
+    <img src="https://example.com/minervabook4.jpg" alt="The Minervabook 4">
+    <p>$1,499.99</p>
+    <p>The Minervabook 4 by ÖCC is the pinnacle of modern computing technology, offering unrivaled performance, design, and security. Engineered for professionals, creatives, and tech enthusiasts, it features the latest advancements in hardware and software to deliver a truly exceptional user experience. This flagship model is designed to excel in every aspect, from productivity to multimedia and beyond.</p>
+    <button onclick="addToCart('The Minervabook 4', 1499.99)">Add to Cart</button>
+</div>
+    <div class="product-card">
+        <h3>Panzer-Kampfwagen H2A</h3>
+        <img src="https://example.com/panzer.jpg" alt="Panzer-Kampfwagen H2A">
+        <p>$8,500,000</p>
+        <p>The Panzer-Kampfwagen H2A is a cutting-edge main battle tank designed for superior performance in modern warfare. Equipped with advanced armor and weaponry, it ensures unmatched battlefield dominance.</p>
+        <button onclick="addToCart('Panzer-Kampfwagen H2A', 8500000)">Add to Cart</button>
+    </div>
+<div class="product-card">
+    <h3>Horizon-Link Drone Network</h3>
+    <img src="https://example.com/horizon-link.jpg" alt="Horizon-Link Drone Network">
+    <p>$7,000,000</p>
+    <p>The Horizon-Link Drone Network provides comprehensive aerial surveillance and reconnaissance capabilities. Its advanced communication and control systems enable real-time monitoring.</p>
+    <button onclick="addToCart('Horizon-Link Drone Network', 7000000)">Add to Cart</button>
+</div>
+</section>
+
+<!-- Sections for Each Category -->
+<section id="small-arms" class="section-content">
+    <h2>Small Arms</h2>
+    <div class="product-card">
+    <h3>ÖW ARX22</h3>
+    <img src="https://example.com/arx22.jpg" alt="ÖW ARX22">
+    <p>$1,500</p>
+    <p>The ÖW ARX22 is a state-of-the-art assault rifle designed for high precision and durability. Its advanced optics and modular design make it a top choice for modern warfare.</p>
+    <button onclick="addToCart('ÖW ARX22', 1500)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖW SRX77</h3>
+    <img src="https://example.com/srx77.jpg" alt="ÖW SRX77">
+    <p>$2,000</p>
+    <p>The ÖW SRX77 is a cutting-edge sniper rifle known for its exceptional range and accuracy. Equipped with advanced targeting systems, it excels in long-range engagements.</p>
+    <button onclick="addToCart('ÖW SRX77', 2000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖW LMG88</h3>
+    <img src="https://example.com/lmg88.jpg" alt="ÖW LMG88">
+    <p>$2,500</p>
+    <p>The ÖW LMG88 is a versatile light machine gun designed for sustained fire and high mobility. Its robust build and reliable performance make it ideal for various combat scenarios.</p>
+    <button onclick="addToCart('ÖW LMG88', 2500)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖW MP-24X</h3>
+    <img src="https://example.com/mp24x.jpg" alt="ÖW MP-24X">
+    <p>$1,800</p>
+    <p>The ÖW MP-24X is a high-performance submachine gun featuring advanced recoil management and accuracy. It is perfect for close-quarters combat.</p>
+    <button onclick="addToCart('ÖW MP-24X', 1800)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖW RP-45</h3>
+    <img src="https://example.com/rp45.jpg" alt="ÖW RP-45">
+    <p>$1,700</p>
+    <p>The ÖW RP-45 represents a pinnacle of design and engineering from Österreichische Waffen, featuring a proprietary custom caliber that offers exceptional power, accuracy, and reliability.</p>
+    <button onclick="addToCart('ÖW RP-45', 1700)">Add to Cart</button>
+</div>
+</section>
+
+<section id="vehicles" class="section-content">
+    <h2>Vehicles</h2>
+    <div class="product-card">
+    <h3>Panzer-Kampfwagen H2A</h3>
+    <img src="https://example.com/h2a.jpg" alt="Panzer-Kampfwagen H2A">
+    <p>$8,500,000</p>
+    <p>The Panzer-Kampfwagen H2A is an advanced main battle tank featuring cutting-edge armor and weaponry. Its superior mobility and firepower make it a formidable force on the battlefield.</p>
+    <button onclick="addToCart('Panzer-Kampfwagen H2A', 8500000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>APC-45 Cerberus</h3>
+    <img src="https://example.com/apc45.jpg" alt="APC-45 Cerberus">
+    <p>$2,500,000</p>
+    <p>The APC-45 Cerberus is a versatile armored personnel carrier designed for both transport and combat roles. It combines robust protection with advanced mobility features.</p>
+    <button onclick="addToCart('APC-45 Cerberus', 2500000)">Add to Cart</button>
+</div>
+</section>
+
+<section id="planes" class="section-content">
+    <h2>Planes</h2>
+    <div class="product-card">
+    <h3>FG-90A Valkyrie</h3>
+    <img src="https://example.com/fg90a.jpg" alt="FG-90A Valkyrie">
+    <p>$3,000,000</p>
+    <p>The FG-90A Valkyrie is a highly advanced fighter jet equipped with state-of-the-art avionics and weapon systems. It offers unmatched air superiority and agility.</p>
+    <button onclick="addToCart('FG-90A Valkyrie', 3000000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>AH-70 Thunderhawk</h3>
+    <img src="https://example.com/ah70.jpg" alt="AH-70 Thunderhawk">
+    <p>$4,000,000</p>
+    <p>The AH-70 Thunderhawk is an advanced attack helicopter with superior firepower and maneuverability. It is designed for both close air support and anti-armor operations.</p>
+    <button onclick="addToCart('AH-70 Thunderhawk', 4000000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Horizon-Link Drone Network</h3>
+    <img src="https://example.com/horizon-link.jpg" alt="Horizon-Link Drone Network">
+    <p>$7,000,000</p>
+    <p>The Horizon-Link Drone Network provides comprehensive aerial surveillance and reconnaissance capabilities. Its advanced communication and control systems enable real-time monitoring.</p>
+    <button onclick="addToCart('Horizon-Link Drone Network', 7000000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖF-WA Helios-X1</h3>
+    <img src="https://example.com/helios-x1.jpg" alt="ÖF-WA Helios-X1">
+    <p>$5,500,000</p>
+    <p>The ÖF-WA Helios-X1 is a next-generation space-based surveillance system with advanced capabilities for reconnaissance and monitoring. It offers unparalleled precision and coverage.</p>
+    <button onclick="addToCart('ÖF-WA Helios-X1', 5500000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Götterdämmerung Ballistic Missile</h3>
+    <img src="https://example.com/götterdämmerung.jpg" alt="Götterdämmerung Ballistic Missile">
+    <p>$10,000,000</p>
+    <p>The Götterdämmerung Ballistic Missile is a high-performance weapon system designed for strategic strikes. Its advanced guidance and propulsion systems ensure precise and powerful delivery.</p>
+    <button onclick="addToCart('Götterdämmerung Ballistic Missile', 10000000)">Add to Cart</button>
+</div>
+
+</section>
+
+<section id="ships" class="section-content">
+    <h2>Ships</h2>
+    <div class="product-card">
+    <h3>Gottlieb-Class Cruiser</h3>
+    <img src="https://example.com/gottlieb-class.jpg" alt="Gottlieb-Class Cruiser">
+    <p>$15,000,000</p>
+    <p>The Gottlieb-Class Cruiser is a heavily armed and armored naval vessel designed for dominance on the high seas. It features advanced weaponry and defensive systems for superior performance.</p>
+    <button onclick="addToCart('Gottlieb-Class Cruiser', 15000000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Vortex-Class Destroyer</h3>
+    <img src="https://example.com/vortex-class.jpg" alt="Vortex-Class Destroyer">
+    <p>$12,000,000</p>
+    <p>The Vortex-Class Destroyer is a versatile and powerful warship equipped with cutting-edge offensive and defensive systems. It is designed for both fleet protection and independent operations.</p>
+    <button onclick="addToCart('Vortex-Class Destroyer', 12000000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Leviathan-Class Assault Ship</h3>
+    <img src="https://example.com/leviathan-class.jpg" alt="Leviathan-Class Assault Ship">
+    <p>$20,000,000</p>
+    <p>The Leviathan-Class Assault Ship is an advanced naval vessel designed for amphibious assaults and heavy combat. It features advanced landing capabilities and substantial firepower.</p>
+    <button onclick="addToCart('Leviathan-Class Assault Ship', 20000000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Fafnir-Class Frigate</h3>
+    <img src="https://example.com/fafnir-class.jpg" alt="Fafnir-Class Frigate">
+    <p>$8,000,000</p>
+    <p>The Fafnir-Class Frigate is a fast and agile warship designed for reconnaissance and escort missions. It combines speed, stealth, and firepower for effective operations.</p>
+    <button onclick="addToCart('Fafnir-Class Frigate', 8000000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Nereus-Class Attack Submarine</h3>
+    <img src="https://example.com/nereus-class.jpg" alt="Nereus-Class Attack Submarine">
+    <p>$10,000,000</p>
+    <p>The Nereus-Class Attack Submarine is a stealthy and heavily armed underwater vessel designed for deep-sea operations and precision strikes. It features advanced sonar and stealth technologies.</p>
+    <button onclick="addToCart('Nereus-Class Attack Submarine', 10000000)">Add to Cart</button>
+</div>
+</section>
+
+<section id="tech" class="section-content">
+    <h2>Tech</h2>
+    <div class="product-card">
+    <h3>ANR OTP RMDD</h3>
+    <img src="https://example.com/anr-otp-rmdd.jpg" alt="ANR OTP RMDD">
+    <p>$250.99</p>
+    <p>The ANR OTP (One-Time Pad) Radio Message Decryption Device represents the pinnacle of secure communications. Designed for field agents and operatives, this compact and powerful device ensures that your sensitive information remains inaccessible to unauthorized parties. By leveraging the unbreakable security of one-time pads and the complexity of frequency-hopping radio transmissions, the ANR OTP guarantees the highest level of encryption for covert operations.</p>
+    <button onclick="addToCart('ANR OTP RMDD', 250.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖCC Sentinel-R8</h3>
+    <img src="https://example.com/sentinel-r8.jpg" alt="ÖCC Sentinel-R8">
+    <p>$600,000</p>
+    <p>The ÖCC Sentinel-R8 is the ultimate fusion of advanced AI, state-of-the-art technology, and robust engineering, designed to excel in modern warfare's most demanding environments. With its comprehensive suite of offensive and defensive capabilities, the Sentinel-R8 is a force multiplier that ensures dominance in any operational scenario.</p>
+    <button onclick="addToCart('ÖCC Sentinel-R8', 600000)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>CeleritasOS 13</h3>
+    <img src="https://example.com/celeritasos13.jpg" alt="CeleritasOS 13">
+    <p>$14.99</p>
+    <p>CeleritasOS 13 is the latest iteration of ÖCC's advanced operating system, designed to seamlessly integrate across all ÖCC devices, including the Minervabook 4 or Taschenwelt 10. It is built to deliver unparalleled performance, security, and user experience, powered by cutting-edge quantum computing capabilities and advanced AI integration..</p>
+    <button onclick="addToCart('CeleritasOS 13', 14.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Sensus AI</h3>
+    <img src="https://example.com/sensus-ai.jpg" alt="Sensus AI">
+    <p>$9.99</p>
+    <p>Sensus AI represents the forefront of artificial intelligence, offering an intuitive, adaptive, and personalized digital assistant that seamlessly integrates across all ÖCC devices. Designed to learn and evolve with the user, Sensus AI provides a proactive and efficient way to manage daily tasks, control smart environments, and enhance productivity through advanced natural language processing and contextual understanding.</p>
+    <button onclick="addToCart('Sensus AI', 9.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖCC TV</h3>
+    <img src="https://example.com/öcc-tv.jpg" alt="ÖCC TV">
+    <p>$9.99</p>
+    <p>ÖCC TV is ÖCC's cutting-edge streaming service, offering an expansive entertainment experience with an array of advanced features. Designed to provide high-quality streaming, personalized recommendations, and interactive elements, ÖCC TV caters to diverse entertainment needs and integrates seamlessly with ÖCC’s ecosystem.</p>
+    <button onclick="addToCart('ÖCC TV', 9.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>The Minervabook 4</h3>
+    <img src="https://example.com/minervabook4.jpg" alt="The Minervabook 4">
+    <p>$1,499.99</p>
+    <p>The Minervabook 4 by ÖCC is the pinnacle of modern computing technology, offering unrivaled performance, design, and security. Engineered for professionals, creatives, and tech enthusiasts, it features the latest advancements in hardware and software to deliver a truly exceptional user experience. This flagship model is designed to excel in every aspect, from productivity to multimedia and beyond.</p>
+    <button onclick="addToCart('The Minervabook 4', 1499.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>AugenWelt 1</h3>
+    <img src="https://example.com/augenwelt1.jpg" alt="AugenWelt 1">
+    <p>$999.99</p>
+    <p>The AugenWelt 1 is ÖCC's premier AR glasses system, designed to enhance both professional and personal experiences with advanced augmented reality technology. Combining sleek design with powerful performance, these glasses provide an immersive and intuitive interface for a range of applications, from interactive media to productivity tools.</p>
+    <button onclick="addToCart('AugenWelt 1', 999.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Bildschirm Pro</h3>
+    <img src="https://example.com/bildschirm-pro.jpg" alt="Bildschirm Pro">
+    <p>$899.99</p>
+    <p>The Bildschirm Pro is ÖCC’s flagship tablet, designed to deliver exceptional performance, versatility, and advanced features for both professional and personal use. With its sleek design, high-resolution display, and powerful internals, the Bildschirm Pro offers a premium computing experience ideal for productivity, entertainment, and creative tasks.</p>
+    <button onclick="addToCart('Bildschirm Pro', 899.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Bildschirm Licht</h3>
+    <img src="https://example.com/bildschirm-licht.jpg" alt="Bildschirm Licht">
+    <p>$799.99</p>
+    <p>The Bildschirm Licht is ÖCC’s streamlined, versatile tablet designed for users who need powerful performance in a more affordable and portable package. Combining essential features with ÖCC’s advanced technology, the Licht version provides a balanced experience for everyday tasks, entertainment, and productivity.</p>
+    <button onclick="addToCart('Bildschirm Licht', 799.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Stylo Pro</h3>
+    <img src="https://example.com/stylo-pro.jpg" alt="Stylo Pro">
+    <p>$22.99</p>
+    <p>The Stylo Pro is ÖCC’s premium digital stylus designed for professional artists, designers, and creative professionals. With advanced features and precision technology, the Stylo Pro offers an exceptional drawing and writing experience, making it an ideal tool for digital art, note-taking, and design work..</p>
+    <button onclick="addToCart('Stylo Pro', 22.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>Taschenwelt 10</h3>
+    <img src="https://example.com/taschenwelt10.jpg" alt="Taschenwelt 10">
+    <p>$1099/99</p>
+    <p>The Taschenwelt 10 is ÖCC’s flagship smartphone, designed to deliver exceptional performance, innovative features, and advanced technology in a sleek and stylish package. With its cutting-edge hardware, powerful software, and seamless integration with ÖCC’s ecosystem, the Taschenwelt 10 is crafted to meet the demands of modern users.</p>
+    <button onclick="addToCart('Taschenwelt 10', 1099.99)">Add to Cart</button>
+</div>
+
+<div class="product-card">
+    <h3>ÖCCUhr 3</h3>
+    <img src="https://example.com/öccuhr3.jpg" alt="ÖCCUhr 3">
+    <p>$250.99</p>
+    <p>The ÖCCUhr 3 is ÖCC’s advanced smartwatch, designed to merge cutting-edge technology with refined aesthetics. It offers comprehensive health monitoring, seamless connectivity, and sophisticated payment capabilities, all in a sleek, stylish package.</p>
+    <button onclick="addToCart('ÖCCUhr 3', 250.99)">Add to Cart</button>
+</div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="section-content">
+    <center><h2>About Us</h2></center>
+    <p>Welcome to Österreichische Union</p>
+    <p>At Österreichische Union, we are at the forefront of innovation, dedicated to providing cutting-edge solutions in military and technological advancements. Founded on a commitment to excellence and a passion for pushing boundaries, we specialize in creating high-quality, advanced products that meet the evolving needs of modern defense and technology sectors.</p>
+    
+    <center><h3>Our Mission</h3></center>
+    <p>Our mission is simple: to deliver unparalleled products that enhance operational efficiency and effectiveness. We strive to integrate the latest technological advancements with rigorous engineering standards to ensure that our offerings are not only state-of-the-art but also reliable and effective in real-world applications.</p>
+    
+    <center><h3>What We Offer</h3></center>
+    <ul>
+        
+            <h4>Small Arms</h4>
+            <p>Our range of small arms is designed for precision, durability, and superior performance. From rifles to pistols, each product is engineered with advanced materials and cutting-edge technology to ensure reliability in the most demanding conditions.</p>
+            <h4>Vehicles</h4>
+            <p>Our military vehicles, including tanks and armored personnel carriers, are built to withstand the rigors of modern combat. Equipped with advanced armor and weaponry, they offer unmatched protection and firepower, ensuring strategic superiority on the battlefield.</p>
+            <h4>Planes</h4>
+            <p>We offer a selection of high-performance aircraft designed for versatility and agility. Whether for reconnaissance or combat, our planes are engineered to deliver exceptional speed, maneuverability, and endurance.</p>
+            <h4>Ships</h4>
+            <p>Our naval vessels, including cruisers and destroyers, are crafted to excel in maritime operations. With advanced stealth technology and superior firepower, they are built to dominate the seas and protect maritime interests.</p>
+  
+            <h4>Tech</h4>
+            <p>In the realm of technology, we provide innovative solutions that range from advanced electronics to high-tech systems. Our products are designed to integrate seamlessly into existing infrastructure, offering enhanced capabilities and improved performance.</p>
+        </li>
+    </ul>
+    
+    <center><h3>Our Commitment to Quality</h3></center>
+    <p>Quality is the cornerstone of our operations. We adhere to the highest standards of manufacturing and testing to ensure that every product we deliver meets or exceeds industry expectations. Our team of skilled engineers and technicians is dedicated to continuous improvement, utilizing the latest technologies and methodologies to drive innovation and maintain excellence.</p>
+    
+    <center><h3>Sustainability and Ethics</h3></center>
+    <p>At Österreichische Union, we are committed to sustainable practices and ethical standards. We strive to minimize our environmental impact through responsible manufacturing processes and the use of eco-friendly materials. Our business practices are guided by integrity, transparency, and respect for human rights, ensuring that we operate in a manner that aligns with our values.</p>
+    
+    <center><h3>Join Us on Our Journey</h3></center>
+    <p>As we continue to advance and expand our product offerings, we invite you to join us on our journey. Explore our range of products and discover how Österreichische Union can provide the solutions you need to achieve success. Whether you are looking for the latest in military technology or innovative tech solutions, we are here to support you with products that set the standard for excellence.</p>
+    
+    <p>Thank you for choosing Österreichische Union. We look forward to serving you and contributing to your success.</p>
+</section>
+
+
+<section id="contact" class="section-content">
+    <h2>Contact Us</h2>
+    <div class="contact-form">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+</section>
+
+<section id="checkout" class="section-content">
+    <h2>Shopping Cart</h2>
+    <div id="cart"></div>
+    <button onclick="checkout()">Checkout</button>
+</section>
+
+<!-- Confirmation Message -->
+<div id="confirmationMessage" class="confirmation-message">
+    <p>Thank you for your purchase!</p>
+    <button onclick="continueShopping()">Continue Shopping</button>
+</div>
+
+<footer>
+    <p>&copy; 2103 Österreichische Union. All rights reserved. This is all part of a fictional RP and not to be taken seriously.</p>
+</footer>
+
+<script>
+    let cart = [];
+    let currentSection = 'home';
+
+    function updateSection(target) {
+        document.querySelectorAll('.section-content').forEach(section => {
+            section.style.display = (section.id === target) ? 'block' : 'none';
+        });
+        document.querySelector('.hero').style.display = (target === 'home') ? 'block' : 'none'; // Show hero section only for 'home'
+        document.querySelector('#info').style.display = (target === 'home') ? 'block' : 'none'; // Show info section only for 'home'
+        document.querySelector('#featured').style.display = (target === 'home') ? 'block' : 'none'; // Show featured products only for 'home'
+    }
+
+    function toggleTab(target) {
+        if (currentSection === target) {
+            updateSection('home'); // Show hero if the same tab is clicked again
+            currentSection = 'home';
+        } else {
+            updateSection(target);
+            currentSection = target;
+        }
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.classList.toggle('active', link.getAttribute('data-target') === target);
+        });
+    }
+
+    document.querySelectorAll('.nav-link').forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+            const target = e.target.closest('.nav-link').getAttribute('data-target');
+            toggleTab(target);
+        });
+    });
+
+    function addToCart(product, price) {
+        const quantity = prompt(`How many units of ${product} would you like to add to your cart?`);
+        if (quantity && !isNaN(quantity) && quantity > 0) {
+            const existingProduct = cart.find(item => item.product === product);
+            if (existingProduct) {
+                existingProduct.quantity += parseInt(quantity);
+            } else {
+                cart.push({ product, price, quantity: parseInt(quantity) });
+            }
+            updateCart();
+        } else {
+            alert('Please enter a valid quantity.');
+        }
+    }
+
+    function updateCart() {
+        const cartDiv = document.getElementById('cart');
+        cartDiv.innerHTML = '';
+        let total = 0;
+        cart.forEach(item => {
+            const div = document.createElement('div');
+            div.textContent = `${item.product} - $${item.price} x ${item.quantity}`;
+            cartDiv.appendChild(div);
+            total += item.price * item.quantity;
+        });
+        const totalDiv = document.createElement('div');
+        totalDiv.textContent = `Total: $${total}`;
+        cartDiv.appendChild(totalDiv);
+    }
+
+    function checkout() {
+        document.querySelector('#checkout').style.display = 'none';
+        document.querySelector('#confirmationMessage').style.display = 'block';
+    }
+
+    function continueShopping() {
+        document.querySelector('#confirmationMessage').style.display = 'none';
+        document.querySelector('#checkout').style.display = 'block';
+    }
+
+    // Initial display
+    updateSection('home');
+</script>
+</body>
+</html>
+
+
