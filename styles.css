@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #E0D8C3; /* Bone */
+    color: #333;
+}
+header {
+    background-color: #E2532F; /* Flame */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 20px; /* Adjust the value as needed */
+}
+.hero {
+    background-color: #E0D8C3; 
+    color: #E2532F;
+    padding: 20px;
+    text-align: center;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #E0D8C3;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px; /* Adjust the value as needed */
+}
+.nav-link {
+    margin: 5px;
+    text-decoration: none;
+    color: #E2532F; 
+    font-weight: bold;
+    margin-top: 20px; /* Adjust the value as needed */
+}
+.nav-link.active {
+    border-bottom: 2px solid #E2532F; /* Flame */
+}
+.section-content {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 1200px;
+    background-color: #E0D8C3;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.product-card {
+    border: 1px solid #E2532F; /* Flame */
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #E0D8C3;
+    text-align: center;
+}
+.product-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.product-card button {
+    background-color: #E2532F; /* Flame */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.product-card button:hover {
+    background-color: #d9442a;
+}
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+.contact-form label {
+    margin-top: 10px;
+}
+.contact-form input, .contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+.contact-form button {
+    background-color: #E2532F; /* Flame */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.contact-form button:hover {
+    background-color: #d9442a;
+}
+.confirmation-message {
+    display: none;
+    background-color: #E2532F; /* Flame */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+footer {
+    background-color: #E2532F; /* Flame */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+p {
+    max-width: 800px; /* Max width for paragraphs */
+    margin: 0 auto 20px; /* Center-align and add space below */
+    line-height: 1.6; /* Improve readability */
+}
